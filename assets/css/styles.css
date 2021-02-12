@@ -1,0 +1,29 @@
+.navbar.navbar-dark.navbar-expand-md.text-dark.bg-dark {
+  background-color: #000!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.fab.fa-xbox {
+}
+
+.logo {
+  line-height: 0;
+  font-size: 31px;
+}
+
+:root {
+  font-weight: 500;
+}
+
+.main {
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: 300;
+}
+
