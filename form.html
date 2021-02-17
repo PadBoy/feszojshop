@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Feszojshop</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="padding-top: 76px;color: rgb(255,255,255);background: rgb(0,0,0);font-family: Roboto, sans-serif;">
+    <div class="contact-clean" style="background: #212529;margin-top: -100px;">
+        <form method="post" style="background: rgb(52,58,64);border-style: solid;border-radius: 8px;margin-top: 90px;/*width: 855px;*/" action="https://formspree.io/f/xnqoyndg" target="_blank">
+            <h2 class="text-center" style="color: rgb(255,255,255);border-style: none;margin-bottom: 10px;"><span style="text-decoration: underline;">Rendelési űrlap</span></h2>
+            <p style="color: rgb(255,255,255);text-align: center;"><em>A *-gal jelölt mezők kitöltése kötelező.</em></p><label style="color: rgb(255,255,255);"><strong>Személyes adatok</strong></label>
+            <div class="form-group"><input class="form-control" type="text" name="Vezetéknév" placeholder="Vezetéknév*" required=""><small class="form-text text-danger">Valós adatokat használjon!</small></div>
+            <div class="form-group"><input class="form-control" type="text" placeholder="Keresztnév*" required="" name="Keresztnév"><small class="form-text text-danger">Valós adatokat használjon!</small></div>
+            <div class="form-group"><input class="form-control is-invalid" type="email" name="Email cím" placeholder="Email*" required="" inputmode="email"><small class="form-text text-danger">Valós adatokat használjon!</small></div>
+            <div class="form-group"><input class="form-control" type="tel" name="Telefonszám" required="" minlength="11" placeholder="Telefonszám*" inputmode="tel"><small class="form-text text-danger">Valós adatokat használjon!</small></div><label style="color: rgb(255,255,255);"><strong>Szállítási cím</strong></label>
+            <div
+                class="form-group"><input class="form-control" type="text" name="Irányítószám" placeholder="Irányítószám*" required="" minlength="4" inputmode="numeric"><small class="form-text text-danger">Valós adatokat használjon!</small></div>
+    <div class="form-group"><input class="form-control" type="text" name="Település" placeholder="Település*" required=""><small class="form-text text-danger">Valós adatokat használjon!</small></div>
+    <div class="form-group"><input class="form-control" type="text" name="Kerület, utca, házszám" placeholder="Kerület, utca, házszám*" required=""><small class="form-text text-danger">Valós adatokat használjon!</small></div>
+    <div class="form-group"><label data-toggle="tooltip" data-bs-tooltip="" style="color: rgb(255,255,255);" title="Mivel induló cég vagyunk raktárkészletünk nem túl nagy, így egyszerre 1 készülék vásárlása lehetséges."><strong><span style="text-decoration: underline;">Vásárolni kívánt eszköz</span></strong></label>
+        <select
+            class="custom-select" required="" name="Eszköz" value="Eszköz">
+            <optgroup label="Konzolok">
+                <option value="PlayStation® 2">PlayStation® 2</option>
+                <option value="SATEL Model S">PlayStation® 3</option>
+            </optgroup>
+            <optgroup label="Hordozható konzolok">
+                <option value="PS® Vita">PS® Vita</option>
+                <option value="PSP®">PSP® </option>
+            </optgroup>
+            </select>
+    </div>
+    <div class="form-group"><label style="color: rgb(255,255,255);"><strong><span style="text-decoration: underline;">Fizetés módja</span></strong></label><select class="custom-select" required="" name="Fizetés módja"><option value="Előreutalás">Előreutalás</option></select></div>
+    <div
+        class="form-group"><textarea class="form-control" name="Üzenet" placeholder="Üzenet" rows="14" minlength="10" style="margin-top: 45px;" spellcheck="true"></textarea></div>
+        <div class="form-group"><label style="color: rgb(255,255,255);"><strong><span style="text-decoration: underline;">Információk</span></strong></label>
+            <p style="color: rgb(255,255,255);text-align: center;">Az alábbi gombra kattintva értesülünk rendeléséről. Minden információról értesíteni fogjuk a fent megadott email címen és telefonszámon is. Az új lapon megnyílt ablakot néhány másodperc elteltével bezárhatja. Köszönjük vásárlását!&nbsp;&nbsp;</p>
+        </div>
+        <div class="form-group text-center"><button class="btn btn-primary btn-block" type="submit">Rendelés feladása</button></div>
+        </form>
+        </div>
+        <footer class="text-white d-flex d-xl-flex flex-column justify-content-center align-items-center align-content-center justify-content-xl-center align-items-xl-center" style="background: #000000;height: 80px;width: 100%;position: absolute;/*bottom: 0;*/">
+            <div class="d-flex d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
+                <p class="text-center" style="margin-bottom: 0;">Copyright ©<br>A lilfeszojshop csapata 2021&nbsp;<br></p>
+            </div>
+        </footer>
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top text-dark" style="font-weight: 400;background: rgba(0,0,0,0.9);color: rgb(255,0,0);">
+            <div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="assets/img/pslogo.png" style="width: 52px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+                        <li class="nav-item"><a class="nav-link" href="index.html#psp">PSP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#ps2">PS2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#ps3">PS3</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#ps-vita">PS Vita</a></li>
+                        <li class="nav-item"><a class="nav-link active">Rendelés</a></li>
+                    </ul>
+            </div>
+            </div>
+        </nav>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>
